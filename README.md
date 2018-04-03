@@ -272,11 +272,12 @@ Almost all Node.js code follows this style because without it developer has to 
 The throw statement throws a user-defined exception. Execution of the current function will stop (the statements after throw won't be executed), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate.
 
 When might you use the syncronous form of a function instead?
-## Resource
-- [JavaScript Modules: A Beginner’s Guide](https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc)
+
 URL Module
+
 The URL module splits up a web address into readable parts.
 To include the URL module, use the require() method:
+
 var url = require('url')
 Parse an address with the url.parse() method, and it will return a URL object with each part of the address as properties.
 
